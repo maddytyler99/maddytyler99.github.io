@@ -1,0 +1,987 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+p{
+    font-family: garamond-premier-pro-caption,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+h2{
+    font-family: garamond-premier-pro-caption,serif;
+    font-style: normal;
+}
+#main{
+    
+}
+#storytitle{    
+
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    
+    /*background-color: skyblue;*/
+    color: black;
+    overflow: auto;
+    
+    font-family: garamond-premier-pro-caption,serif;
+    font-style: normal;
+}
+#storytitle h1{
+    text-align: center;
+    
+    font-weight: 500;
+    
+    font-size: 7vw;
+    letter-spacing: -0.2vw;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*background-color: azure;*/
+    position: absolute;
+    top: 20vw;
+    z-index: 5;
+}
+#storytitle h2{
+    font-weight: 400;
+    font-size: 2vw;
+    letter-spacing: 0.01em;
+    text-align: right;
+    position: absolute;
+    top: 28vw;
+    right: 24vw;
+    /*background-color: aqua*/
+    z-index: 5;
+}
+#titleanimation{
+    position: absolute;
+    width: 100%;
+}
+#openingimage{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 5;
+}
+#fadebox1{
+    width: 100%;
+    /*background-color:orange;*/
+    position: relative;
+    height: 100vw;
+}
+#text1{
+    width: 50vw;
+    height: 10vw;
+    position: fixed;
+    top: 8vw;
+    left: 5vw;
+    line-height: 2.5vw;
+    
+    /*background-color: pink;*/
+    color: black;
+    overflow: auto;
+    
+    font-family: garamond-premier-pro-caption,serif;
+    font-style: normal;
+}
+#text1 p{
+    font-weight: 400;
+    
+    font-size: 1.5vw;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*background-color: azure;*/
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+#text2{
+    width: 50vw;
+    height: 10vw;
+    position: fixed;
+    top: 25vw;
+    left: 35vw;
+    line-height: 2.5vw;
+    
+    /*background-color: mediumpurple;*/
+    color: black;
+    overflow: auto;
+    
+    font-family: garamond-premier-pro-caption,serif;
+    font-style: normal;
+    z-index: 2;
+}
+#text2 p{
+    font-weight: 400;
+    
+    font-size: 1.5vw;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*background-color: greenyellow;*/
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+#speechbox1{
+    width: 35vw;
+    position: fixed;
+    top: 33vw;
+    left: 50vw;
+    z-index: 5;
+}
+#speechbox2{
+    width: 20vw;
+    height: 20vw;
+    position: fixed;
+    top: 30vw;
+    left: 31vw;
+    z-index: 5;
+}
+#fadebox2{
+    width: 100%;
+    /*background-color: lightgoldenrodyellow;*/
+    position: relative;
+    height: 220vw;
+}
+
+#bike1{
+    width: 30vw;
+    position: fixed;
+    top: 50vw;
+    left: 35vw;
+    z-index: 5;
+}
+
+#bike2{
+    width: 30vw;
+    position: fixed;
+    top: 50vw;
+    left: 35vw;
+    z-index: 5;
+}
+#gradcap1{
+    width: 6vw;
+    position: fixed;
+    top: -5vw;
+    left: 39vw;
+    z-index: 6;
+}
+#gradcap2{
+    width: 6vw;
+    position: fixed;
+    top: -5vw;
+    left: 54vw;
+    z-index: 6;
+}
+#text3{
+    width: 50vw;
+    height: 10vw;
+    position: fixed;
+    top: 3vw;
+    left: 25vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    /*background-color: lightgoldenrodyellow;*/
+    color: black;
+    overflow: auto;
+}
+#childhoodpic1{
+    width: 13vw;
+    position: fixed;
+    top: 3vw;
+    left: 7vw;
+    z-index: 5;
+}
+#childhoodpic2{
+    width: 13vw;
+    position: fixed;
+    top: 3vw;
+    left: 80vw;
+    z-index: 5;
+}
+#text4{
+    width: 50vw;
+    height: 5vw;
+    position: fixed;
+    top: 9vw;
+    left: 25vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    
+   /* background-color: lightgreen;*/
+    color: black;
+}
+#text5{
+    text-align: center;
+    width: 50vw;
+    height: 5vw;
+    position: fixed;
+    top: 15vw;
+    left: 25vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    
+   /* background-color: lightgreen;*/
+    color: black;
+}
+/*#spellingbee-animation{
+    width: 80vw;
+    position: fixed;
+    top: 11vw;
+    left: 20vw;
+}*/
+
+
+
+
+
+#fadebox3{
+    width: 100%;
+    /*background-color:lavender;*/
+    position: relative;
+    height: 80vw;
+}
+#teacherimage{
+    width: 23vw;
+    position: fixed;
+    top: 3vw;
+    left:65vw;
+    line-height: 2.5vw;
+    
+   /* background-color: lightgreen;*/
+    color: black;
+    z-index: 5;
+}
+#text6{
+    text-align: right;
+    width: 56vw;
+    height: 5vw;
+    position: fixed;
+    top: 9vw;
+    left: 5vw;
+    line-height: 2.5vw;
+    z-index: 5;
+}
+
+#text7{
+    text-align: left;
+    width: 56vw;
+    height: 5vw;
+    position: fixed;
+    top: 28vw;
+    left: 27vw;
+    line-height: 2.5vw;
+    z-index: 5;
+}
+#wardimage{
+    text-align: center;
+    width: 20vw;
+    position: fixed;
+    top: 20vw;
+    left:4vw;
+    line-height: 2.5vw;
+    z-index: 5;
+}
+
+#fadebox4{
+    width: 100%;
+    background-color:#F2F1EF
+    position: relative;
+    height: 150vw;
+}
+#darkbackgroundbox{
+    background-color: #211713;
+    width: 100%;
+    height: 51vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+#text8{
+    text-align: center;
+    width: 56vw;
+    height: 5vw;
+    position: fixed;
+    top: 5vw;
+    left: 20vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#wardsplit{
+    width: 20vw;
+    position: fixed;
+    top: 12vw;
+    left: 40vw;
+    z-index: 5;
+}
+#marilynsplit{
+    width: 20vw;
+    position: fixed;
+    top: 12vw;
+    left: 40vw;
+    z-index: 5;
+}
+#text9{
+    text-align: center;
+    width: 56vw;
+    height: 8vw;
+    position: fixed;
+    top: 21vw;
+    left: 22vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text9 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+#text10{
+    text-align: center;
+    width: 45vw;
+    height: 7vw;
+    position: fixed;
+    top: 38vw;
+    left: 27vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text11{
+    text-align: center;
+    width: 100%;
+    height: 7vw;
+    position: fixed;
+    top: 15vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text11 h2{
+    font-size: 4vw;
+    font-weight: 600;
+}
+#text12{
+    text-align: center;
+    width: 55vw;
+    height: 9vw;
+    position: fixed;
+    top: 25vw;
+    left: 23vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#fadebox5{
+    width: 100%;
+    position: relative;
+    height: 110vw;
+    background-color: #F2F1EF;
+}
+#rockimage{
+    width: 50vw;
+    position: fixed;
+    top: 60vw;
+    left: 0;
+    z-index: 5;
+}
+#text13{
+    text-align: center;
+    width: 50vw;
+    height: 7vw;
+    position: fixed;
+    top: 15vw;
+    left: 45vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    
+    /*background-color: lightgreen;*/
+    color: black;
+}
+#fadebox6{
+    width: 100%;
+    background-color:#F2F1EF;
+    position: relative;
+    height: 150vw;
+}
+#text14{
+    text-align: left;
+    width: 35vw;
+    height: 10vw;
+    position: fixed;
+    top: 3vw;
+    left: 60vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    
+    /*background-color: lightgreen;*/
+    color: black;
+}
+#mapimage{
+    width: 65vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+#standingimage{
+    width: 24vw;
+    position: fixed;
+    top: 15vw;
+    left: 48vw;
+    z-index: 5;
+}
+#dot1{
+    width: 5vw;
+    position: fixed;
+    top: 25vw;
+    left: 30vw;
+    z-index: 5;
+}
+#dot2{
+    width: 5vw;
+    position: fixed;
+    top: 33vw;
+    left: 40vw;
+    z-index: 5;
+}
+#dot3{
+    width: 5vw;
+    position: fixed;
+    top: 28vw;
+    left: 24vw;
+    z-index: 5;
+}
+#text15{
+    text-align: left;
+    width: 30vw;
+    height: 10vw;
+    position: fixed;
+    top: 18vw;
+    left: 68vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#fadebox7{
+    width: 100%;
+    background-color:#F2F1EF;
+    position: relative;
+    height: 120vw;
+}
+#text16{
+    text-align: center;
+    width: 100%;
+    height: 3vw;
+    position: fixed;
+    top: 5vw;
+    left: 0;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#text17{
+    text-align: center;
+    width: 50vw;
+    height: 3vw;
+    position: fixed;
+    top: 22vw;
+    left: 10vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#text18{
+    text-align: center;
+    width: 50vw;
+    height: 3vw;
+    position: fixed;
+    top: 22vw;
+    left: 28vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#bottle{
+    width: 50vw;
+    position: fixed;
+    top: 1.7vw;
+    left: 43vw;
+    z-index: 4;
+}
+#darkbackground2{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#fadebox8{
+    width: 100%;
+    background-color:black;
+    position: relative;
+    height: 230vw;
+}
+#text19{
+    text-align: left;
+    width: 20vw;
+    height: 4vw;
+    position: fixed;
+    top:10vw;
+    left: 15vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#richardtylerpic{
+    width: 20vw;
+    position: fixed;
+    top: 15vw;
+    left: 48vw;
+    z-index: 5;
+}
+#grammydicktylerpic{
+    width: 20vw;
+    position: fixed;
+    top: 15vw;
+    left: 48vw;
+    z-index: 5;
+}
+#text20{
+    text-align: left;
+    width: 20vw;
+    height: 4vw;
+    position: fixed;
+    top: 15vw;
+    left: 25vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text21{
+    text-align: left;
+    width: 20vw;
+    height: 4vw;
+    position: fixed;
+    top: 25vw;
+    left: 50vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text22{
+    text-align: center;
+    width: 100%;
+    height: 8vw;
+    position: fixed;
+    top: 21vw;
+    left: 0;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text22 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+#fadebox9{
+    width: 100%;
+    background-color:black;
+    position: relative;
+    height: 80vw;
+}
+#text23{
+    text-align: center;
+    width: 70vw;
+    height: 8vw;
+    position: fixed;
+    top: 13vw;
+    left: 15vw;
+    line-height: 3.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text23 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+#fadebox10{
+    width: 100%;
+    background-color:black;
+    position: relative;
+    height: 200vw;
+}
+#bedanimation{
+    width: 80vw;
+    position: fixed;
+    top: 8vw;
+    left: -15vw;
+    z-index: 5;
+}
+#text24{
+    text-align: left;
+    width: 50vw;
+    height: 4vw;
+    position: fixed;
+    top: 5vw;
+    left: 20vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text25{
+    text-align: left;
+    width: 50vw;
+    height: 4vw;
+    position: fixed;
+    top: 15vw;
+    left: 40vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#text26{
+    text-align: left;
+    width: 40vw;
+    height: 4vw;
+    position: fixed;
+    top: 28vw;
+    left: 50vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: #F2F1EF;
+}
+#lightbackground{
+    background-color: #F2F1EF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+}
+#eyesanimation{
+    width: 60vw;
+    position: fixed;
+    top: 1vw;
+    left: 20vw;
+    z-index: 5;
+}
+#text27{
+    text-align: center;
+    width: 70vw;
+    height: 8vw;
+    position: fixed;
+    top: 35vw;
+    left: 15vw;
+    line-height: 3.5vw;
+    z-index: 5;
+    color: black;
+}
+#text27 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#fadebox11{
+    width: 100%;
+    background-color:black;
+    position: relative;
+    height: 800vw;
+    z-index: 2;
+}
+#lightbackground2{
+    background-color: #F2F1EF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+}
+#text28{
+    width: 60vw;
+    text-align: center;
+    height: 8vw;
+    position: fixed;
+    top: 16vw;
+    left: 20vw;
+    line-height: 3.5vw;
+    z-index: 5;
+    color: black;
+}
+#text28 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+#text29{
+    text-align: center;
+    width: 80vw;
+    height: 4vw;
+    position: fixed;
+    top: 3vw;
+    left: 10vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#handsanimation{
+    width: 100%;
+    position: fixed;
+    top: 8vw;
+    left: 0;
+    z-index: 5;
+}
+#text30{
+    text-align: center;
+    width: 60vw;
+    height: 4vw;
+    position: fixed;
+    top: 38vw;
+    left: 22vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#text31{
+    width: 60vw;
+    text-align: center;
+    height: 20vw;
+    position: fixed;
+    top: 16vw;
+    left: 20vw;
+    line-height: 3.5vw;
+    z-index: 5;
+    color: black;
+}
+#text31 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+#text32{
+    text-align: center;
+    width: 80vw;
+    height: 4vw;
+    position: fixed;
+    top: 5vw;
+    left: 10vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#text33{
+    text-align: center;
+    width: 30vw;
+    height: 4vw;
+    position: fixed;
+    top: 25vw;
+    left: 35vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+#mike{
+    width: 30vw;
+    position: fixed;
+    top: 15vw;
+    left: 65vw;
+    z-index: 5;
+}
+#text34{
+    text-align: center;
+    width: 60vw;
+    height: 4vw;
+    position: fixed;
+    top: 5vw;
+    left: 19vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+
+#text35{
+    text-align: center;
+    width: 60vw;
+    height: 4vw;
+    position: fixed;
+    top: 20vw;
+    left: 19vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+
+#text36{
+    text-align: center;
+    width: 60vw;
+    height: 4vw;
+    position: fixed;
+    top: 35vw;
+    left: 19vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+
+#text37{
+    width: 60vw;
+    text-align: center;
+    height: 5vw;
+    position: fixed;
+    top: 18vw;
+    left: 18vw;
+    line-height: 3.5vw;
+    z-index: 6;
+    color: black;
+}
+#text37 p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#grammychair{
+    width: 20vw;
+    position: fixed;
+    top: 15vw;
+    left: 65vw;
+    z-index: 5;
+}
+
+#grammylynn{
+    width: 15vw;
+    position: fixed;
+    top: 5vw;
+    left: 10vw;
+    z-index: 5;
+}
+#dad{
+    width: 15vw;
+    position: fixed;
+    top: 1vw;
+    left: 80vw;
+    z-index: 5;
+}
+#piano{
+    width: 30vw;
+    position: fixed;
+    top: 28vw;
+    left: 2vw;
+    z-index: 5;
+}
+#divingboard{
+    width: 15vw;
+    position: fixed;
+    top: 15vw;
+    left: 4vw;
+    z-index: 5;
+}
+#reading{
+    width:20vw;
+    position: fixed;
+    top: 26vw;
+    left: 28vw;
+    z-index: 5;
+}
+#grammykids{
+    width:15vw;
+    position: fixed;
+    top: 32vw;
+    left: 75vw;
+    z-index: 5;
+}
+#ranch{
+    width:20vw;
+    position: fixed;
+    top: 8vw;
+    left: 16vw;
+    z-index: 5;
+}
+#lynngraduation{
+    width:20vw;
+    position: fixed;
+    top: 35vw;
+    left: 42vw;
+    z-index: 5;
+}
+#dad2{
+    width:15vw;
+    position: fixed;
+    top: 1vw;
+    left: 53vw;
+    z-index: 5;
+}
+#lynn2{
+    width:25vw;
+    position: fixed;
+    top: 25vw;
+    left: 45vw;
+    z-index: 5;
+}
+#dadgraduation{
+    width:25vw;
+    position: fixed;
+    top: 2vw;
+    left: 30vw;
+    z-index: 5;
+}
+#dudes{
+    width:20vw;
+    position: fixed;
+    top: 36vw;
+    left: 56vw;
+    z-index: 5;
+}
+#exes{
+    width:15vw;
+    position: fixed;
+    top: 4vw;
+    left: 3vw;
+    z-index: 5;
+}
+#allie{
+    width:15vw;
+    position: fixed;
+    top: 17vw;
+    left: 78vw;
+    z-index: 5;
+}
+#grandkids{
+    width:25vw;
+    position: fixed;
+    top: 2vw;
+    left: 65vw;
+    z-index: 5;
+}
+#grandkids2{
+    width:15vw;
+    position: fixed;
+    top: 25vw;
+    left: 28vw;
+    z-index: 5;
+}
+#text38{
+    text-align: center;
+    width: 60vw;
+    height: 4vw;
+    position: fixed;
+    top: 30vw;
+    left: 18vw;
+    line-height: 2.5vw;
+    z-index: 5;
+    color: black;
+}
+
